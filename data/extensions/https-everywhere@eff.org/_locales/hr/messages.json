@@ -1,0 +1,212 @@
+{
+    "about_add_new_rule": {
+        "message": "Dodaj novo pravilo"
+    },
+    "about_ext_description": {
+        "message": "\u0160ifriraj web! Automatski koristi HTTPS sigurnost na mnogim stranicama."
+    },
+    "about_ext_name": {
+        "message": "HTTPS Svuda"
+    },
+    "about_rulesets_version": {
+        "message": "Verzija ruleset-a za"
+    },
+    "about_title": {
+        "message": "O HTTPS-u Svuda"
+    },
+    "about_version": {
+        "message": "Verzija"
+    },
+    "cancel_he_blocking_explainer": {
+        "message": "HTTPS Everywhere je primijetio da ste se kretali do stranice koja nije HTTPS i poku\u0161ali ste umjesto toga poslati HTTPS verziju. HTTPS verzija nije dostupna. Najvjerojatnije ova web-lokacija ne podr\u017eava HTTPS, ali je mogu\u0107e da napada\u010d blokira HTTPS verziju. Ako \u017eelite pogledati ne\u0161ifriranu verziju ove stranice, to mo\u017eete u\u010diniti tako da onemogu\u0107ite opciju &quot;\u0160ifriranje svih prihvatljivih web-lokacija&quot; (EASE) u pro\u0161irenju HTTPS Everywhere. Imajte na umu da bi onemogu\u0107ivanje ove opcije va\u0161 preglednik mogao u\u010diniti ranjivim na mre\u017ene napade na unaprje\u0111enje web lokacija koje posje\u0107ujete."
+    },
+    "cancel_he_blocking_network": {
+        "message": "napadi na mre\u017eu unaza\u0111enjem"
+    },
+    "cancel_http_once": {
+        "message": "Open insecure page for this session only"
+    },
+    "cancel_open_page": {
+        "message": "Otvori nesigurnu stranicu"
+    },
+    "chrome_add_new_rule": {
+        "message": "Dodaj novo pravilo za ovu stranicu"
+    },
+    "chrome_add_rule": {
+        "message": "Dodaj pravilo za ovu stranicu"
+    },
+    "chrome_always_https_for_host": {
+        "message": "Uvijek koristi https za ovaj poslu\u017eitelj"
+    },
+    "chrome_disable_on_this_site": {
+        "message": "Onemogu\u0107i HTTPS Svuda na ovoj stranici"
+    },
+    "chrome_enable_on_this_site": {
+        "message": "Omogu\u0107i HTTPS Svuda na ovoj stranici"
+    },
+    "chrome_experimental_rules": {
+        "message": "Eksperimentalna pravila"
+    },
+    "chrome_experimental_rules_description": {
+        "message": "Mogu\u0107e je da urokuje upozorenja i prekide. Uga\u0161eno po standardnim postavkama"
+    },
+    "chrome_hide_advanced": {
+        "message": "Sakrij napredno"
+    },
+    "chrome_host": {
+        "message": "Poslu\u017eitelj:"
+    },
+    "chrome_redirect_to": {
+        "message": "Preusmjeri na"
+    },
+    "chrome_regex": {
+        "message": "Odgovaraju\u0107i regex"
+    },
+    "chrome_rule_name": {
+        "message": "Naziv pravila"
+    },
+    "chrome_settings_for_this_site_explained": {
+        "message": "Dok pregledavate razli\u010dite web-lokacije, mo\u017eete promijeniti svoje postavke za svaku web-lokaciju"
+    },
+    "chrome_settings_for_this_site_header": {
+        "message": "Postavke za ovu web-lokaciju"
+    },
+    "chrome_settings_for_this_site_subheader": {
+        "message": "Promijenite postavke za \u0161ifrirane veze"
+    },
+    "chrome_show_advanced": {
+        "message": "Prika\u017ei napredno"
+    },
+    "chrome_stable_rules": {
+        "message": "Stabilna pravila"
+    },
+    "chrome_stable_rules_description": {
+        "message": "Forsiraj enkriptirane veze na sljede\u0107e stranice:"
+    },
+    "chrome_status_cancel_button": {
+        "message": "Odustani"
+    },
+    "menu_donate_eff_imperative": {
+        "message": "Doniraj EFF-u"
+    },
+    "menu_encryptAllSitesEligibleOff": {
+        "message": "\u0160ifriranje svih prihvatljivih web-lokacija je isklju\u010deno"
+    },
+    "menu_encryptAllSitesEligibleOn": {
+        "message": "\u0160ifriranje svih prihvatljivih web-lokacija je uklju\u010deno"
+    },
+    "menu_globalDisable": {
+        "message": "HTTPS svuda je isklju\u010den"
+    },
+    "menu_globalEnable": {
+        "message": "HTTPS svuda je uklju\u010den"
+    },
+    "menu_httpNoWhereExplainedAllowed": {
+        "message": "Ne\u0161ifrirani zahtjevi su trenutno dozvoljeni"
+    },
+    "menu_httpNoWhereExplainedBlocked": {
+        "message": "Ne\u0161ifrirani zahtjevi su trenutno blokirani"
+    },
+    "menu_httpNoWhereMore": {
+        "message": "Ovaj modus blokira ne\u0161ifrirani sadr\u017eaj i zahtjeve"
+    },
+    "menu_observatory": {
+        "message": "Postavke SSL opservatorija"
+    },
+    "menu_seeLess": {
+        "message": "Vidi manje"
+    },
+    "menu_seeMore": {
+        "message": "Vidi vi\u0161e"
+    },
+    "menu_showCounter": {
+        "message": "Prika\u017ei brojilo"
+    },
+    "menu_viewAllRules": {
+        "message": "Pogledaj sva pravila"
+    },
+    "onboarding_details_one": {
+        "message": "EASE Mode Optimized"
+    },
+    "onboarding_details_two": {
+        "message": "You can now whitelist sites to disable in HTTPS Everywhere"
+    },
+    "onboarding_footer": {
+        "message": "HTTPS Everywhere is an EFF project"
+    },
+    "onboarding_header": {
+        "message": "Changes with version 3.9.2020"
+    },
+    "onboarding_intro": {
+        "message": "\u0160ifriraj web! Automatski koristi HTTPS sigurnost na mnogim stranicama."
+    },
+    "options_addDisabledSite": {
+        "message": "Add Disabled Site"
+    },
+    "options_addUpdateChannel": {
+        "message": "Dodaj kanal za a\u017euriranje"
+    },
+    "options_advancedSettings": {
+        "message": "Napredne postavke"
+    },
+    "options_autoUpdateRulesets": {
+        "message": "Automatski a\u017euriraj rulesetove"
+    },
+    "options_debuggingRulesets": {
+        "message": "Skupovi za ispravljanje pogre\u0161aka (napredno)"
+    },
+    "options_delete": {
+        "message": "Obri\u0161i"
+    },
+    "options_disabledUrlsListed": {
+        "message": "Onemogu\u0107ene stranice HTTPS Svuda"
+    },
+    "options_enableMixedRulesets": {
+        "message": "Omogu\u0107i rulesetove mije\u0161anog sadr\u017eaja"
+    },
+    "options_enterDisabledSite": {
+        "message": "Enter disabled site"
+    },
+    "options_enterUpdateChannelName": {
+        "message": "Unesite naziv kanala za a\u017euriranje"
+    },
+    "options_generalSettings": {
+        "message": "Op\u0107e postavke"
+    },
+    "options_settings": {
+        "message": "Postavke"
+    },
+    "options_showDevtoolsTab": {
+        "message": "Prika\u017ei Devtools karticu"
+    },
+    "options_storedRulesetsVersion": {
+        "message": "Spremljena verzija ruleset-a:"
+    },
+    "options_update": {
+        "message": "A\u017euriraj"
+    },
+    "options_updateChannels": {
+        "message": "A\u017euriraj kanale"
+    },
+    "options_updateChannelsWarning": {
+        "message": "Upozorenje: dodavanje kanala za a\u017euriranje mo\u017ee uzrokovati da napada\u010di otmu va\u0161 preglednik. Ovaj odjel ure\u0111ujte jedino ako znate \u0161to radite!"
+    },
+    "options_updatesLastChecked": {
+        "message": "A\u017euriranja zadnji put provjerena:"
+    },
+    "options_updatesLastCheckedNever": {
+        "message": "nikad"
+    },
+    "options_userRulesListed": {
+        "message": "Korisni\u010dka pravila HTTPS Svuda"
+    },
+    "prefs_export_settings": {
+        "message": "Izvoz postavki"
+    },
+    "prefs_reset_defaults": {
+        "message": "Poni\u0161ti na zadano"
+    },
+    "prefs_reset_defaults_message": {
+        "message": "Ovo \u0107e obnoviti svaki ruleset na svoje zadano stanje. Nastavi?"
+    }
+}
