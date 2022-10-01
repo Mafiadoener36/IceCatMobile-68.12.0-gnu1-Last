@@ -31,7 +31,7 @@ jobs:
 #        working-directory: temp
 
       - name: Installing Dependencies
-        run: sudo apt-get install -y git && sudo apt-get install -y rename && sudo apt-get install -y libpango1.0-dev && sudo apt-get install -y libpangoxft-1.0-0 && sudo apt-get install -y libpangoft2-1.0-0 && sudo apt-get install -y libfreetype-dev && sudo apt-get install -y libxft-dev && sudo apt-get install -y libgtk2.0-dev && sudo apt-get install -y libx11-dev
+        run: sudo apt-get install -y git && sudo apt-get install -y rename && sudo apt-get install -y gprename && sudo apt-get install -y libpango1.0-dev && sudo apt-get install -y libpangoxft-1.0-0 && sudo apt-get install -y libpangoft2-1.0-0 && sudo apt-get install -y libfreetype-dev && sudo apt-get install -y libxft-dev && sudo apt-get install -y libgtk2.0-dev && sudo apt-get install -y libx11-dev
 
       - name: ls + dir
         #working-directory: temp
