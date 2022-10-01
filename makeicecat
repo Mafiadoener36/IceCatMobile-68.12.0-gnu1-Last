@@ -274,8 +274,8 @@ sed '/description.*helpus/,/description/d' -i ./browser/base/content/aboutDialog
 ###############################################################################
 
 # Replace Firefox branding
-find . | tac | grep -i fennec  | prename --nofullpath -E 's/fennec/icecatmobile/;' -E 's/Fennec/IceCatMobile/;'
-find . | tac | grep -i firefox | prename --nofullpath -E 's/firefox/icecat/;' -E 's/Firefox/IceCat/;'
+find . | tac | grep -i fennec  | rename --nofullpath -E 's/fennec/icecatmobile/;' -E 's/Fennec/IceCatMobile/;'
+find . | tac | grep -i firefox | rename --nofullpath -E 's/firefox/icecat/;' -E 's/Firefox/IceCat/;'
 
 rm browser/components/newtab/data/content/assets/icecat-wordmark.svg
 cp $DATA/branding/icecat-wordmark.svg browser/components/newtab/data/content/assets/
@@ -340,7 +340,7 @@ sed 's/which are both/which are/; s/free<\/a> and/Free Software<\/a>./; />open s
 
 sed 's/mozilla-bin/icecat-bin/' -i build/unix/run-mozilla.sh
 
-find . | tac | grep run-mozilla | prename --nofullpath -E 's/mozilla/icecat/;'
+find . | tac | grep run-mozilla | rename --nofullpath -E 's/mozilla/icecat/;'
 
 # do not alter useragent/platform/oscpu/etc with fingerprinting countermeasure, it makes things worse
 sed '/ShouldResistFingerprinting/,/}/s/^/\/\//' -i ./netwerk/protocol/http/nsHttpHandler.cpp
