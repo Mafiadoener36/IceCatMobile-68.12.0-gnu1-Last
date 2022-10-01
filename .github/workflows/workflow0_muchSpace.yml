@@ -31,7 +31,7 @@ jobs:
 #        working-directory: temp
 
       - name: Installing Dependencies
-        run: sudo apt-get install -y git && sudo apt install -y prename && sudo apt install rename && sudo apt install -y libpango && sudo apt install -y libpangoxft && sudo apt install -y libpangoft2 && sudo apt install -y libfreetype && sudo apt install -y libxft && sudo apt install -y libgtk2 && sudo apt install -y libx11
+        run: sudo apt-get install -y git && sudo apt-get install -y rename && sudo apt-get install -y libpango && sudo apt-get install -y libpangoxft && sudo apt-get install -y libpangoft2 && sudo apt-get install -y libfreetype && sudo apt-get install -y libxft && sudo apt-get install -y libgtk2 && sudo apt-get install -y libx11
 
       - name: ls + dir
         #working-directory: temp
@@ -46,6 +46,10 @@ jobs:
       - name: Build the app
 #        working-directory: temp
         run: ./makeicecat
+
+      - name: ls + dir
+        #working-directory: temp
+        run: ls -la #ls && dir
 
       - name: Upload output
         uses: actions/upload-artifact@v3
