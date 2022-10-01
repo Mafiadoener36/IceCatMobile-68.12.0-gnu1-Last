@@ -51,6 +51,9 @@ jobs:
         #working-directory: temp
         run: ls -la #ls && dir
 
+      - name: dir tree
+        run: tree
+
       - name: Upload output
         uses: actions/upload-artifact@v3
         with:
