@@ -30,8 +30,8 @@ jobs:
 #      - name: Open working temp dir
 #        working-directory: temp
 
-#      - name: Installing Dependencies
-#        run: sudo apt-get install -y git && sudo apt install -y prename && sudo apt install -y libpango && sudo apt install -y libpangoxft && sudo apt install -y libpangoft2 && sudo apt install -y libfreetype && sudo apt install -y libxft && sudo apt install -y libgtk2 && sudo apt install -y libx11
+      - name: Installing Dependencies
+        run: sudo apt-get install -y git && sudo apt install -y prename && sudo apt install rename && sudo apt install -y libpango && sudo apt install -y libpangoxft && sudo apt install -y libpangoft2 && sudo apt install -y libfreetype && sudo apt install -y libxft && sudo apt install -y libgtk2 && sudo apt install -y libx11
 
       - name: ls + dir
         #working-directory: temp
