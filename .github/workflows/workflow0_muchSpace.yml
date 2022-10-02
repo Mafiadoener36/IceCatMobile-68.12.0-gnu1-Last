@@ -51,11 +51,11 @@ jobs:
         #working-directory: temp
         run: ls -la #ls && dir
 
-      - name: dir tree
-        run: tree
+#      - name: dir tree
+#        run: tree
 
       - name: Upload output
         uses: actions/upload-artifact@v3
         with:
           name: debug_output
-          path: output/
+          path: output/icecat-68.12.0/python/mozbuild/mozbuild/test/action/data/package_icecatmobile_apk/
